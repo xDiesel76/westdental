@@ -88,7 +88,7 @@ html {
 }
 
 .header__navbar-items:hover {
-  color: dodgerblue;
+  color: black;
   text-decoration: none;
 }
 
@@ -99,6 +99,8 @@ html {
 .header__navbar-logo {
   width: 10rem;
   margin-right: auto;
+  -webkit-animation: fade 3s;
+          animation: fade 3s;
 }
 
 .contact {
