@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #24252a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #49515a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0088a9;
+}
+
+.header {
+  background-image: url(../img/dentist.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__middle {
+    margin-left: 25rem;
+    margin-top: 15rem;
+
+    &-text {
+      color: dodgerblue;
+      font-size: 7.5rem;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      letter-spacing: 1rem;
+      animation: fade 3s;
+    }
+
+    &-info {
+      margin-left: 20.75rem;
+      color: black;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      letter-spacing: 1rem;
+      animation: fade 3s;
+    }
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4rem 70rem;
+
+    &-items {
+      color: dodgerblue;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-decoration: none;
+      animation: fade 3s;
+    }
+
+    &-items:hover {
+      color: dodgerblue;
+      text-decoration: none;
+    }
+
+    &-items:not(:last-child) {
+      margin-right: 5rem;
+    }
+
+    &-logo {
+      width: 10rem;
+      margin-right: auto;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20rem 10rem;
+  flex-direction: column;
+
+  &__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__info {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.allcontact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.carousel {
+  background-color: #24252a;
+}
+
+.footer__copyright {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #24252a;
+}
+
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #24252a;
+}
+
+.carousel {
+  padding: 5% 15%;
+}
+
+.testimonial-text {
+  font-size: 5rem;
+}
+
+em {
+  font-size: 2rem;
+}
