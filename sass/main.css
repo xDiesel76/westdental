@@ -178,7 +178,7 @@ i {
 }
 
 .footer__copyright {
-  color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding-bottom: 3rem;
@@ -214,5 +214,26 @@ p {
 
 em {
   font-size: 2rem;
+}
+
+.bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  vertical-align: auto;
+  padding: 10rem 15rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bio__info {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding-right: 15rem;
 }
 /*# sourceMappingURL=main.css.map */

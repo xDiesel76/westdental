@@ -143,7 +143,7 @@ i {
 }
 
 .footer__copyright {
-  color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
   text-align: center;
   padding-bottom: 3rem;
@@ -179,4 +179,18 @@ p {
 
 em {
   font-size: 2rem;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  vertical-align: auto;
+  padding: 10rem 15rem;
+  align-items: center;
+
+  &__info {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-right: 15rem;
+  }
 }
